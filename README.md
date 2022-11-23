@@ -52,9 +52,9 @@ FOR 		PIGEONPOSSE.COM
 This plugin adds various functionality to _Mautic_ and is inspired by others that the mautic community has developed. To learn more about the history of the project, see the [history section](https://github.com/PigeonPosse/mautic-plugin-extra-tools/blob/main/HISTORY.md).
 
 ### What does this plugin offer?
-- Creation of custom tokens that work on both pages, emails and notifications
-- Execution of mautic commands from the interface without having to open the terminal (still in development)
-- Creation of custom navigation links for the main, user, administrator and extra menus
+- Creation of **custom tokens** that work on both pages, emails and notifications
+- Execution of **mautic commands from the interface** without having to open the terminal (still in development)
+- Creation of **custom navigation links** for the main, user, administrator and extra menus
 
 The idea of this plugin is to bring together some of the features that the community needs and that Mautic does not offer natively. So any ideas are welcome.
 
