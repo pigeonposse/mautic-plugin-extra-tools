@@ -1,0 +1,32 @@
+{
+	"name": "pigeonposse/mautic-plugin-extra-tools",
+	"type": "mautic-plugin",
+	"extra": {
+		"install-directory-name": "PigeonPosseExtraToolsBundle"  
+	},
+	"require": {
+		"mautic/composer-plugin": "^1.0"
+	},
+	"version" : "1.0.0",
+	"authors": [
+		{
+            "name": "PigeonPosse Team",
+            "email": "dev@pigeonposse.com",
+            "homepage": "https://pigeonposse.com",
+            "role": "Collective"
+		},
+		{
+            "name": "Angelo",
+            "email": "angelo@pigeonposse.com",
+            "homepage": "https://pigeonposse.com",
+            "role": "Developer"
+		}
+	],
+	"license": "GPL-3.0",
+	"funding": [
+		{
+			"type": "other",
+			"url": "https://github.com/sponsors/PigeonPosse"
+		}
+	]
+}
