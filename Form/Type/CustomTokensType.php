@@ -15,18 +15,26 @@ class CustomTokensType extends AbstractType {
 
     public function buildForm(FormBuilderInterface $builder, array $options) {
 
-        $builder->add('name', TextType::class, [
-            'label' 	=> 'plugin.pigeonposse.customtokens.form.name',
-            'required' 	=> true,
-            'attr' 		=> ['class' => 'form-control']
-        ]);
+        $builder->add(
+        	'name', 
+        	TextType::class, 
+	        	[
+	            'label' 	=> 'plugin.pigeonposse.customtokens.form.name',
+	            'required' 	=> true,
+	            'attr' 		=> ['class' => 'form-control']
+	        ]
+	    );
 
-        $builder->add('textarea', TextareaType::class, [
-            'label' 	=> 'plugin.pigeonposse.customtokens.form.textarea',
-            'required' 	 => true,
-            'label_attr' => ['class' => 'control-label'],
-            'attr' 		 => ['class' => 'form-control editor editor-advanced']
-        ]);
+        $builder->add(
+        	'textarea', 
+        	TextareaType::class, 
+        	[
+	            'label' 	=> 'plugin.pigeonposse.customtokens.form.textarea',
+	            'required' 	 => true,
+	            'label_attr' => ['class' => 'control-label'],
+	            'attr' 		 => ['class' => 'form-control editor editor-advanced']
+	        ]
+	    );
             
         $builder->add(
             'buttons',

@@ -84,8 +84,9 @@ class CustomTokens extends FormEntity {
             ->columnName('name')
             ->build();
 
-        $builder->createField('textarea', 'string')
+        $builder->createField('textarea', 'text')
             ->columnName('textarea')
+            ->nullable()
             ->build();
             
     }
@@ -94,14 +95,18 @@ class CustomTokens extends FormEntity {
      * @return mixed
      */
     public function getId() {
+
         return $this->id;
+        
     }
 
     /**
      * @return string
      */
     public function getTextarea() {
+
         return $this->textarea;
+
     }
 
     /**
@@ -110,16 +115,19 @@ class CustomTokens extends FormEntity {
      * @return CustomTokens
      */
     public function setTextarea($textarea) {
-        $this->textarea = $textarea;
 
+        $this->textarea = $textarea;
         return $this;
+
     }
 
     /**
      * @return string
      */
     public function getName() {
+
         return $this->name;
+
     }
 
     /**
@@ -128,17 +136,19 @@ class CustomTokens extends FormEntity {
      * @return CustomTokens
      */
     public function setName($name) {
-        $this->name = $name;
 
+        $this->name = $name;
         return $this;
+
     }
 
     /**
      * @return \DateTime
      */
-    public function getPublishUp()
-    {
+    public function getPublishUp(){
+
         return $this->publishUp;
+
     }
 
     /**
@@ -146,20 +156,22 @@ class CustomTokens extends FormEntity {
      *
      * @return CustomTokens
      */
-    public function setPublishUp($publishUp)
-    {
+    public function setPublishUp($publishUp) {
+
         $this->isChanged('publishUp', $publishUp);
         $this->publishUp = $publishUp;
 
         return $this;
+
     }
 
     /**
      * @return \DateTime
      */
-    public function getPublishDown()
-    {
+    public function getPublishDown() {
+
         return $this->publishDown;
+
     }
 
     /**
@@ -167,12 +179,13 @@ class CustomTokens extends FormEntity {
      *
      * @return CustomTokens
      */
-    public function setPublishDown($publishDown)
-    {
+    public function setPublishDown($publishDown) {
+
         $this->isChanged('publishDown', $publishDown);
         $this->publishDown = $publishDown;
 
         return $this;
+
     }
 
     
