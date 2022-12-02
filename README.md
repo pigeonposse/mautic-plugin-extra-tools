@@ -43,9 +43,11 @@ FOR 		PIGEONPOSSE.COM
 
 # Mautic Extra Tools by PIGEONPOSSE™
 
+[![License](https://img.shields.io/github/license/PigeonPosse/mautic-plugin-extra-tools?color=blue&label=License&style=flat-square)](https://packagist.org/packages/pigeonposse/mautic-plugin-extra-tools)
+[![Version](https://img.shields.io/packagist/v/pigeonposse/mautic-plugin-extra-tools?color=a1b858&label&style=flat-square)](https://packagist.org/packages/pigeonposse/mautic-plugin-extra-tools)
 [![Web](https://img.shields.io/badge/Web-grey?style=flat-square)](https://pigeonposse.com/) 
-[![About us](https://img.shields.io/badge/About--us-grey?style=flat-square)](https://pigeonposse.com/?popup=about) 
-[![Donate ko-fi](https://img.shields.io/badge/Donate-pink?style=flat-square)](https://pigeonposse.com/?popup=donate) 
+[![About us](https://img.shields.io/badge/About-us-grey?style=flat-square)](https://pigeonposse.com/?popup=about) 
+[![Donate](https://img.shields.io/badge/Donate-pink?style=flat-square)](https://pigeonposse.com/?popup=donate) 
 
 ## 🗒 Description
 
@@ -58,9 +60,14 @@ This plugin adds various functionality to _Mautic_ and is inspired by others tha
 
 The idea of this plugin is to bring together some of the features that the community needs and that Mautic does not offer natively. So any ideas are welcome.
 
+## 🗝 Prerequisites
+
+1. A [_Mautic_](https://www.mautic.org/) installation.
+
 ## 🔑 Installation
 
-### Manual
+### 📚 Manual
+
 1. Download or clone this bundle into your _Mautic_ <code>/plugins</code> folder.
 2. Clean your _Mautic_ cache. There are two options to do that:
 	- Remove cache from folder "prod":
@@ -84,35 +91,41 @@ The idea of this plugin is to bring together some of the features that the commu
 
 5. Finally, You should now see _PigeonPosse_ plugin in your list of plugins.
 
-## 📝 History
-
-Read about the history of the project
-
-[Read more](https://github.com/PigeonPosse/mautic-plugin-extra-tools/blob/main/HISTORY.md)
+<!-- ## ⚙️ Usage -->
 
 ## 👨‍💻 Development
 
-Info about mautic development
-- https://developer.mautic.org/
+- About _**Mautic**_ development:
 
-Info about symfony
-- https://symfony.com/doc
+	[![Check docs](https://img.shields.io/badge/Check-docs-grey?style=flat-square)](https://developer.mautic.org/)
+
+- About _**Symfony**_ development:
+	
+	[![Check docs](https://img.shields.io/badge/Check-docs-grey?style=flat-square)](https://symfony.com/doc)
 
 ## ☕ Donate
 
-Help us to develop more interesting things
+Help us to develop more interesting things.
 
-[Donate](https://pigeonposse.com/?popup=donate) 
+[![Donate](https://img.shields.io/badge/Donate-grey?style=flat-square)](https://pigeonposse.com/?popup=donate) 
+
+## 📝 History
+
+Read about the history of the project.
+
+[![Read more](https://img.shields.io/badge/Read-more-grey?style=flat-square)](https://github.com/PigeonPosse/mautic-plugin-extra-tools/blob/main/HISTORY.md)
 
 ## 📜 License
 
 This sofware is licensed with GPLv3 (GNU GENERAL PUBLIC LICENSE Version 3)
 
-[Read more](https://github.com/PigeonPosse/mautic-plugin-extra-tools/blob/main/LICENSE)
+[![Read more](https://img.shields.io/badge/Read-more-grey?style=flat-square)](https://github.com/PigeonPosse/mautic-plugin-extra-tools/blob/main/LICENSE)
 
 ## 🐦 About us
 
-PigeonPosse is a ✨ code development collective ✨ focused on creating practical and interesting tools that help developers and users enjoy a more agile and comfortable experience. Our projects cover various programming sectors and we do not have a thematic limitation in terms of projects.
+_PigeonPosse_ is a ✨ **code development collective** ✨ focused on creating practical and interesting tools that help developers and users enjoy a more agile and comfortable experience. Our projects cover various programming sectors and we do not have a thematic limitation in terms of projects.
+
+[![More](https://img.shields.io/badge/Read-more-grey?style=flat-square)](https://github.com/PigeonPosse/PigeonPosse)
 
 ### Collaborators
 
@@ -123,4 +136,3 @@ PigeonPosse is a ✨ code development collective ✨ focused on creating practic
 
 
 <br>
-
