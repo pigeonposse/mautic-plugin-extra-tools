@@ -117,7 +117,7 @@ Read about the history of the project.
 
 ## 📜 License
 
-This sofware is licensed with GPLv3 (GNU GENERAL PUBLIC LICENSE Version 3)
+This software is licensed with GPLv3 (GNU GENERAL PUBLIC LICENSE Version 3)
 
 [![Read more](https://img.shields.io/badge/Read-more-grey?style=flat-square)](https://github.com/PigeonPosse/mautic-plugin-extra-tools/blob/main/LICENSE)
 
