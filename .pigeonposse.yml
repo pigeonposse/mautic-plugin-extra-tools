@@ -1,0 +1,16 @@
+###############################################################################
+# FOR PIGEONPOSSE USAGE
+###############################################################################
+
+web:
+  
+  - id: "{{composer.name}}"
+    name: Mautic plugin - Extra tools
+    type: plugin
+    subtype: mautic
+    version: "{{composer.version}}"
+    description: "Create custom tokens, add custom nav links and more in Mautic 📬"
+    homepage: "https://packagist.org/packages/pigeonposse/mautic-plugin-extra-tools"
+    repo: "https://github.com/{{composer.name}}"
+
+###############################################################################
