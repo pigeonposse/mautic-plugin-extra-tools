@@ -11,6 +11,7 @@ web:
     version: "{{composer.version}}"
     description: "Create custom tokens, add custom nav links and more in Mautic 📬"
     homepage: "https://packagist.org/packages/{{composer.name}}"
+    logo: "https://raw.githubusercontent.com/{{composer.name}}/main/Assets/img/logo.png"
     repo: "https://github.com/{{composer.name}}"
 
 ###############################################################################
