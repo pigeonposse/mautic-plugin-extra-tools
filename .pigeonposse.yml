@@ -8,7 +8,7 @@ web:
     name: Mautic plugin Extra tools
     type: plugin
     subtype: mautic
-    version: "{{composer.version}}"
+    version: "1.0.0"
     description: "Create custom tokens, add custom nav links and more in Mautic 📬"
     homepage: "https://packagist.org/packages/{{composer.name}}"
     logo: "https://raw.githubusercontent.com/{{composer.name}}/main/Assets/img/logo.png"
